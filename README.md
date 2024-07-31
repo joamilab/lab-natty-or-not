@@ -29,9 +29,10 @@ E que nunca na vida me encontrou!
 ```
 
 ## 🤖 Tecnologias Utilizadas
-* Speechify [https://speechify.com/]
+* [Speechify](https://speechify.com/)
 * Audacity
 * Pavucontrol
+* SoundCloud
 
 ## 🧐 Processo de Criação
 
@@ -44,7 +45,7 @@ O texto utilizado pode ser adicionado em um arquivo de texto ou colado na caixa 
 
 ![Plataforma de criação Speechify](https://github.com/joamilab/lab-natty-or-not/blob/main/image-speechify.png)
 
-Foram adicionadas pausas de 0.25 s entre os versos da mesma estrofe e pausas de 0.5s entre as estrofes para forçar uma pausa mais longa condizente com a maneira comum de recitar poemas.
+Foram adicionadas pausas de 0.25s entre os versos da mesma estrofe e pausas de 0.5s entre as estrofes para forçar uma pausa mais longa condizente com a maneira comum de recitar poemas.
 
 ### 3. Escolher a voz
 A voz pode ser escolhida por idioma e gênero do leitor, a depender do idioma há mais ou menos opções. Optamos por uma voz feminina no idioma português europeu (falado em Portugal). 
@@ -56,7 +57,7 @@ Na assinatura gratuita não é possivel exportar o arquivo de áudio, então gra
 
 A configuração necessária para a gravação seguiu o tutorial: https://diolinux.com.br/tutoriais/gravar-audio-do-sistema-com-audacity.html
 
-O áudio foi salvo no formato MP3.
+O áudio foi salvo no formato MP3 e MP4. Posteriormente, foi relizada a hospedagem do aúdio MP3 no SoundCloud para facilitar o acesso ao resultado.
 
 ## 🚀 Resultados
 
