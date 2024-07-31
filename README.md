@@ -1,51 +1,65 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Recital da poetisa Florbela Espanca
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Recitar poesia é uma arte que torna a apreciação do texto, inicialmente escrito, mais atraente. Quando a pessoa poeta exerce essa atividade, o poema se torna mais compreensível. Muitos poemas tradicionais e apreciados mundialmente foram escritos por pessoas das quais não conhecemos a voz, uma das razões é que a época em que ela viveu não era comum o registro fonográfico.
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+Neste projeto, utilizamos a técnica Texto-to-Speech para criar o recital do poema **Eu** da poetisa portuguesa **Florbela Espanca** (1894-1930) com uma voz feminina em português de Portugal.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+```markdown
+Eu...
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
+Eu sou a que no mundo anda perdida,
+Eu sou a que na vida não tem norte,
+Sou a irmã do Sonho, e desta sorte
+Sou a crucificada... a dolorida...
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+Sombra de névoa tênue e esvaecida,
+E que o destino amargo, triste e forte,
+Impele brutalmente para a morte!
+Alma de luto sempre incompreendida!...
+
+Sou aquela que passa e ninguém vê...
+Sou a que chamam triste sem o ser...
+Sou a que chora sem saber por quê...
+
+Sou talvez a visão que Alguém sonhou,
+Alguém que veio ao mundo pra me ver,
+E que nunca na vida me encontrou!
+
 ```
 
-### Exemplos e Insigths
+## 🤖 Tecnologias Utilizadas
+* Speechify [https://speechify.com/]
+* Audacity
+* Pavucontrol
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+## 🧐 Processo de Criação
 
-## Links Interessantes
+### 1. Criar conta no Speechify
+A plataforma oferece a possibilidade de testar gratuitamente por 3 dias. No entanto, não é possível baixar os arquivos de áudio criados neste nível de assinatura.
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+### 2. Inserir o texto
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+O texto utilizado pode ser adicionado em um arquivo de texto ou colado na caixa de texto da plataforma (vide imagem abaixo).
+
+![Plataforma de criação Speechify](https://github.com/joamilab/lab-natty-or-not/blob/main/image-speechify.png)
+
+Foram adicionadas pausas de 0.25 s entre os versos da mesma estrofe e pausas de 0.5s entre as estrofes para forçar uma pausa mais longa condizente com a maneira comum de recitar poemas.
+
+### 3. Escolher a voz
+A voz pode ser escolhida por idioma e gênero do leitor, a depender do idioma há mais ou menos opções. Optamos por uma voz feminina no idioma português europeu (falado em Portugal). 
+
+A escolha da leitora dentre as disponíveis foi feita por gosto pessoal, a que soou mais agradável.
+
+### 4. Salvar o áudio
+Na assinatura gratuita não é possivel exportar o arquivo de áudio, então gravamos o áudio enquanto ele era executado na plataforma usando o software Audacity com o auxílio do Pavucontrol.
+
+A configuração necessária para a gravação seguiu o tutorial: https://diolinux.com.br/tutoriais/gravar-audio-do-sistema-com-audacity.html
+
+O áudio foi salvo no formato MP3.
+
+## 🚀 Resultados
+
+[![Recital de Eu](https://github.com/joamilab/lab-natty-or-not/blob/main/Picture_of_Florbela_Espanca.jpg)](https://github.com/joamilab/lab-natty-or-not/blob/main/Eu-Florbela_Espanca.mp4)
+
+[Ouvir no SoundCloud](https://soundcloud.com/joamila/eu-florbela-espanca-gerado-por-ia?si=e8ce065ec25d4a4fb761aa200e5e68ae&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
